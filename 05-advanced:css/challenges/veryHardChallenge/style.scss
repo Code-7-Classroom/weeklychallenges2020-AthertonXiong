@@ -1,0 +1,73 @@
+$body: black;
+$colors: black white black;
+$header: pink;
+$text: pink;
+
+.body__background {
+
+    @each $color in $body {
+        &--#{$body} {
+          background-color: $body;
+        }
+      }
+    
+}
+
+.column__container {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    height: 800px;
+    padding: 10px;
+}
+
+
+.column__item {
+    border: 1px solid pink;
+    padding: 20px;
+    text-align: center;
+
+& {
+    border: 2px solid pink;
+    padding: 20px;
+    text-align: center;  
+}
+  @each $color in $colors {
+    &--#{$color} {
+      background-color: $color;
+    }
+  }
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: $header;
+}
+
+h1::before{
+    content: "(ゝ‿ മ)";
+    color: red;
+}
+
+h1::after{
+    content: "(ゝ‿ മ)";
+    color: red;
+}
+
+h2{
+    text-align: center;
+    color: $header;
+}
+
+p {
+    color: $text;
+}
+
+.column2 {
+    color: black;
+}

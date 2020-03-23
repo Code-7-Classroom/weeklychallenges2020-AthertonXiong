@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.body__background--black {
+  background-color: red;
+}
+
+.column__container {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 50px;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  height: 800px;
+  padding: 10px;
+}
+
+.column__item {
+  border: 1px solid yellow;
+  padding: 20px;
+  text-align: center;
+}
+
+.column__item {
+  border: 2px solid blue;
+  padding: 20px;
+  text-align: center;
+}
+
+.column__item--black {
+  background-color: blue;
+}
+
+.column__item--white {
+  background-color: white;
+}
+
+.column__item--black {
+  background-color: black;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+h1::before {
+  content: "(ゝ‿ മ)";
+  color: black;
+}
+
+h1::after {
+  content: "(ゝ‿ മ)";
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: yellow;
+}
+
+p {
+  color: yellow;
+}
+
+.column2 {
+  color: black;
+}

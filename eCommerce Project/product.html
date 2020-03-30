@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product page of my eCommerce">
+    <link rel="stylesheet" type="text/css" href="./css/product.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <title>Product</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="Container">
+                <h1 class="logo"><a href="index.html">Kick it old school</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current"  href="product.html">Our Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('Nintendo')">Nintendo console and games</button>
+        <button class="btn" onclick="filterSelection('Playstation')">Playstation console and games</button>
+        <button class="btn" onclick="filterSelection('Xbox')">Xbox console and games</button>
+    </div>
+
+    <main class="filter__container">
+        <div class="filterDiv Nintendo">
+            <img src="../img/Nes.jpg" class="product__img" alt="img">
+            <h3>Nes Console</h3>
+            <h4>Price:</h4>
+            <p>$20-$50</p>
+            <button class="button" onclick="window.location.href='contact.html';">Buy</button>
+            <h4>Description:</h4>
+            <p></p>
+        </div>
+        <div class="filterDiv Perfect">
+            <img src="../img/ps1.img" class="product__img" alt="img">
+            <h3>PS1 console</h3>
+            <h4>Price:</h4>
+            <p>$30-$80</p>
+            <button class="button" onclick="window.location.href='contact.html';">Buy</button>
+            <h4>Description:</h4>
+            <p></p>
+        </div>
+        
+    </main>
+    <footer class="media">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="fa fa-facebook ">facebook</a>
+        <a href="https://www.twitter.com/" target="_blank" rel="noopener" class="fa fa-twitter ">twitter</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="fa fa-instagram">instagram</a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="fa fa-youtube">youtube</a>
+        <p class="copy">Atherton Xiong | Copyright @ 2020 | All Rights Reserved.</p>
+    </footer>
+    <script src="./js/product.js"></script>
+</body>
+
+</html>

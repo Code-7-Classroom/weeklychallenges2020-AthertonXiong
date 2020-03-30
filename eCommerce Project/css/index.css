@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* navBar */
+  
+  #navbar {
+    background: white;
+    color: white;
+    overflow: auto;
+    width: 412px;
+  }
+  
+  #navbar a {
+    color: white;
+    border-radius: 1rem;
+  }
+  
+  #navbar h1 {
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Creating a active class */
+  
+  #navbar ul li a:hover, #navbar ul li a.current {
+    background: #444;
+    color: white;
+  }
+  
+  /* slideshow */
+  
+  div#slideshow>figure>img {
+    display: none;
+    margin: 0;
+  }
+  
+  div#slideshow>figure.visible>img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 412px;
+    height: 300px;
+  } 
+  /*footer*/
+  
+  footer {
+    background-color: black;
+    width: 412px;
+  }
+  
+  .media {
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 20px;
+  }
+  
+  .media a {
+    padding: 12px;
+  }
+  
+  #logo-footer {
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+  }
+  
+  .copy {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 25px 0 15px 0;
+  }
+  
+  /* Facebook */
+  
+  a.fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  /*twitter*/
+  
+  a.fa-twitter {
+    background: #55acee;
+    color: black;
+  }
+  
+  /*youtube*/
+  
+  a.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  /*instagram*/
+  
+  a.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  @media only screen and (min-width: 413px) {
+    #navbar {
+      background: black;
+      color: pink;
+      overflow: auto;
+      width: 800px;
+    }
+    img {
+      width: 800px;
+      height: 550px;
+    }
+    .media {
+      text-decoration: none;
+      text-align: center;
+      padding-bottom: 5px;
+      padding-top: 25px;
+    }
+    footer {
+      background-color: black;
+      width: 800px;
+    }
+  }
+  
+  @media only screen and (min-width: 801px) {
+    /* navBar */
+    #navbar {
+      background: black;
+      color: white;
+      overflow: auto;
+      width: 100%;
+    }
+    img {
+      width: 100%;
+      height: 550px;
+    }
+    /*footer*/
+    footer {
+      background-color: black;
+      width: 100%;
+    }
+  }

@@ -5,3 +5,4 @@
 var myDrinks = [' water, coffee, tea.'];
 var myFoods = [' apple, sandwiches, chips'];
 var myMeals = myDrinks.concat(myFoods);
+console.log(myMeals)

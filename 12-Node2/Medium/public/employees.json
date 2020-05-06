@@ -1,0 +1,73 @@
+{
+    "employees":[
+        {
+            "id": 1,
+            "name": "Athey",
+            "salary": 45000,
+            "department": "Sales"
+        },
+
+        {
+            "id": 2,
+            "name": "Alan",
+            "salary": 38000,
+            "department": "Design"
+        },
+
+        {
+            "id": 3,
+            "name": "Nathan",
+            "salary": 47000,
+            "department": "Marketing"
+        },
+
+        {
+            "id": 4,
+            "name": "Leo",
+            "salary": 45000,
+            "department": "Sales"
+        },
+
+        {
+            "id": 5,
+            "name": "Kojiro",
+            "salary": 38000,
+            "department": "Design"
+        },
+
+        {
+            "id": 6,
+            "name": "Will",
+            "salary": 47000,
+            "department": "Marketing"
+        },
+
+        {
+            "id": 7,
+            "name": "Josue",
+            "salary": 45000,
+            "department": "Sales"
+        },
+
+        {
+            "id": 8,
+            "name": "Adrian",
+            "salary": 38000,
+            "department": "Design"
+        },
+
+        {
+            "id": 9,
+            "name": "Cristina",
+            "salary": 47000,
+            "department": "Marketing"
+        },
+
+        {
+            "id": 10,
+            "name": "Daniel",
+            "salary": 45000,
+            "department": "Sales"
+        }
+    ]
+}

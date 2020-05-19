@@ -13,7 +13,7 @@ app.get('/', function(req, res){
 // When the "/api/employees" endpoint is targeted, the json file with employee info is displayed
 app.get('/api/employees', function(req, res){
     if(!data){
-        res.status(404).send(`Couldn't find the students.`);
+        res.status(404).send(`Couldn't find the clinic.`);
     }
     res.send(data);  
 });
